@@ -9,8 +9,8 @@ public class Main {
         int i = (r.nextInt(1000))%2;
         System.out.println(i);
         switch (i){
-            case 1-> e1.attandance(true);
-            default-> e1.attandance(false);
+            case 1-> e1.attendance(true);
+            default-> e1.attendance(false);
         }
     }
 }
