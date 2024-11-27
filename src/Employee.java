@@ -17,7 +17,7 @@ public class Employee {
         }
     }
 
-    public void calucatewage(boolean b1){
+    public void calucatewage(){
         if(attendance){
             dailySalary = normalWorkDay*salPerHour;
             System.out.println(dailySalary);
